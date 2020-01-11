@@ -128,22 +128,22 @@
 /obj/structure/closet/secure_closet/guncabinet/sidearm/WillContain()
 	return list(
 			/obj/item/clothing/accessory/storage/holster/thigh = 2,
-			/obj/item/weapon/gun/energy/gun/secure = 3,
+			/obj/item/weapon/gun/energy/gun/secure = 2,
 	)
 
 /obj/structure/closet/secure_closet/guncabinet/sidearm/small
 	name = "personal sidearm cabinet"
 
 /obj/structure/closet/secure_closet/guncabinet/sidearm/small/WillContain()
-	return list(/obj/item/weapon/gun/energy/gun/small/secure = 4)
+	return list(/obj/item/weapon/gun/energy/gun/small/secure = 2)
 
 /obj/structure/closet/secure_closet/guncabinet/sidearm/combined
 	name = "combined sidearm cabinet"
 
 /obj/structure/closet/secure_closet/guncabinet/sidearm/combined/WillContain()
 	return list(
-		/obj/item/weapon/storage/belt/holster/general = 3,
-		/obj/item/weapon/gun/energy/gun/secure = 3,
+		/obj/item/weapon/storage/belt/holster/general = 2,
+		/obj/item/weapon/gun/energy/gun/secure = 2,
 		/obj/item/weapon/gun/energy/gun/small/secure = 1,
 	)
 
@@ -153,7 +153,7 @@
 
 /obj/structure/closet/secure_closet/guncabinet/PPE/WillContain()
 	return list(
-		/obj/item/weapon/gun/energy/gun/small/secure = 3,
-		/obj/item/clothing/suit/armor/pcarrier/medium/command = 3,
-		/obj/item/clothing/head/helmet/solgov/command = 3
+		/obj/item/weapon/gun/energy/gun/small/secure = 2,
+		/obj/item/clothing/suit/armor/pcarrier/medium/command = 2,
+		/obj/item/clothing/head/helmet/solgov/command = 2
 	)
