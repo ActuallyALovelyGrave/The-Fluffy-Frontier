@@ -8,7 +8,7 @@
 	id = "awaysite_skrell_scout"
 	description = "A Skrellian SDTF scouting vessel."
 	suffixes = list("skrellscoutship/skrellscoutship-1.dmm", "skrellscoutship/skrellscoutship-2.dmm")
-	cost = 0.5
+	cost = 1000 //Used only for ivents and lurking with full-staffed BlueJay(Or with low online. Who cares?)
 	shuttles_to_initialise = list(/datum/shuttle/autodock/overmap/skrellscoutship, /datum/shuttle/autodock/overmap/skrellscoutshuttle)
 	apc_test_exempt_areas = list(
 		/area/ship/skrellscoutshuttle =                NO_SCRUBBER,
@@ -18,7 +18,7 @@
 	)
 
 /obj/effect/overmap/visitable/sector/skrellscoutspace
-	name = "Empty Sector"
+	name = "Strange ion cloud"
 	desc = "Slight traces of a cloaking device are present. Unable to determine exact location."
 	in_space = 1
 	icon_state = "event"
