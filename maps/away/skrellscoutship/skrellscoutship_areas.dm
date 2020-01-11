@@ -22,7 +22,7 @@
 	icon_state = "kitchen"
 
 /area/ship/skrellscoutship/crew/rec
-	name = "\improper Recreational Area"
+	name = "\improper Development Area"
 	icon_state = "green"
 	
 /area/ship/skrellscoutship/crew/fit
